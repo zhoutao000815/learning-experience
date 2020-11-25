@@ -147,8 +147,8 @@ void* My_memmove(void* dst, const void* src, size_t size)
 	}
 	else
 	{
-		dst = (char*)dst + size;
-		src = (char*)src + size;
+		dst = (char*)dst + size-1;
+		src = (char*)src + size-1;
 		while (size--)
 		{
 			(char*)dst = (char*)src;
