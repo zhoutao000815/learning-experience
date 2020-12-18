@@ -1,0 +1,67 @@
+解决 删除本地文件引起的红色感叹号
+1、点击git bash here打开命令框
+2、git commit -m ‘delete’
+3、git push 
+-----------------------------------------
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+将添加文件内容添加到索引
+
+用二进制搜索对分查找引入错误的更改
+
+分支列表、创建或删除分支
+
+签出签出指向工作树的分支或路径
+
+克隆将存储库克隆到新目录中
+
+将记录更改提交到存储库
+
+diff显示提交、提交和工作树等之间的更改
+
+从另一个存储库获取下载对象和引用
+
+grep打印与图案匹配的线条
+
+init创建一个空的Git存储库或重新初始化现有的存储库
+
+日志显示提交日志
+
+合并并连接两个或多个开发历史记录
+
+移动或重命名文件、目录或符号链接
+
+从另一个存储库或本地分支获取并与之合并
+
+与关联对象一起推送更新远程参照
+
+将转发端口本地转基到更新的上游头
+
+重置重置当前磁头至指定状态
+
+rm从工作树和索引中删除文件
+
+显示显示各种类型的对象
+
+状态显示工作树状态
+
+标记创建、列出、删除或验证用GPG签名的标记对象
