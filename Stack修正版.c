@@ -63,8 +63,8 @@ void StackPop(Stack* ps)
 STDataType StackTop(Stack* ps)
 {
 	assert(ps);
-	printf("StackTop:%d\n", ps->_a[ps->_top-1]);
-	return ps->_a[ps->_top];
+	printf("StackTop:%c\n", ps->_a[ps->_top-1]);
+	return ps->_a[ps->_top-1];
 }
 // 获取栈中有效元素个数
 int StackSize(Stack* ps)
