@@ -37,6 +37,10 @@ void QueuePop(Queue* q)
 		QNode* temp = q->_front->_pNext;
 		free(q->_front);
 		q->_front = temp;
+		if (temp == NULL)
+		{
+			q->_tail = NULL;
+		}
 		temp = NULL;
 	}
 
