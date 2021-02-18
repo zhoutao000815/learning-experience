@@ -21,8 +21,11 @@
 //链接：https ://leetcode-cn.com/problems/third-maximum-number
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+<<<<<<< HEAD
 //博客链接：https://blog.csdn.net/Zhou000815/article/details/113848563
 
+=======
+>>>>>>> 26d67e71e68c7c98e9928228bbe83820bd3912dc
 #include<stdio.h>
 #include<Windows.h>
 void swap(int *a, int *b)
