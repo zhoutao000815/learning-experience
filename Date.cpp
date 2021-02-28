@@ -160,6 +160,7 @@ Date& Date::operator--()
 // >运算符重载
 bool Date::operator>(const Date& d)
 {
+	//第一种判断方法：排除法
 	if (this->_year < d._year)
 	{
 		return false;
@@ -172,7 +173,32 @@ bool Date::operator>(const Date& d)
 	{
 		return false;
 	}
-		return true;
+	if (this->_day == d._day && this->_month == d._month && this->_year == d._year)
+	{
+		return false;
+	}
+	return true;
+
+	//第二种判断方法：条件确认法
+	/*if (_year > d._year)
+	{
+	return true;
+	}
+	else if (_year == d._year)
+	{
+	if (_month > d._month)
+	{
+	return true;
+	}
+	else if (_month == d._month)
+	{
+	if (_day > d._day)
+	{
+	return true;
+	}
+	}
+	}
+	return false;*/
 }
 
 // ==运算符重载
