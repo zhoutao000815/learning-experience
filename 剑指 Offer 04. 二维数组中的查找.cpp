@@ -30,6 +30,7 @@
 //
 //leetcode链接：https ://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 
+//帮助理解的博客链接：https://blog.csdn.net/Zhou000815/article/details/115032592
 bool findNumberIn2DArray(int** matrix, int matrixSize, int* matrixColSize, int target){
 	if (matrixSize == 0 || *matrixColSize == 0)
 	{
