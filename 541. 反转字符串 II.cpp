@@ -27,9 +27,20 @@ public:
 		string::iterator begin = s.begin();
 		while (size >= k)
 		{
+<<<<<<< HEAD
 			if (IsReverse % 2)       //余数为1，说明为奇数，需要逆置。
 			{
 				std::reverse(begin, begin+k);
+=======
+			string::iterator kend = begin;
+			for (int i = 0; i<k; i++)
+			{
+				kend++;
+			}
+			if (IsReverse % 2)       //余数为1，说明为奇数，需要逆置。
+			{
+				std::reverse(begin, kend);
+>>>>>>> 17925e5527ad4af0ffbc723c356d8f9978451a91
 			}
 			size -= k;
 			begin += k;
