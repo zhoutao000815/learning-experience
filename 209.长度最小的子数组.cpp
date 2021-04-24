@@ -60,7 +60,7 @@ public:
 		// return 0;
 		//=====================================================================
 		//解法二:滑动窗口
-		int subarrsize = nums.size() + 1;  //长度可能为数组长度+1；方便找出长度最小子数组
+		int subarrsize = nums.size() + 1;  //长度可能为数组长度，+1方便找出长度最小子数组
 		int add = 0, addlenth = 0;
 		int left = 0;
 		for (int right = 0; right<nums.size(); right++)
